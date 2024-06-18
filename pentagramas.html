@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- link de bootstrap -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+            integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <!-- icons de bootstrap -->
+            <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+         <!-- Favicon 48x48 (px) -->
+        <link rel="shortcut icon" href="./imagenes/logoo.png" type="image/x-icon">   
+            <!-- Link de CSS    -->
+        <link rel="stylesheet" href="styles.css">
+        <title>Pentagramas</title>
+    </head>
+
+    <body>
+     <!-- Menu de navegacion -->
+        <nav class="navbar navbar-expand-md  .
+    navbar-dark ">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+         data-bs-target="#navbar-toggler" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon data-bs-theme=dark"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbar-toggler">
+            <a class="navbar-brand" href="#">
+                <img src="./imagenes/logoo.png" alt="Logo de la pagina">
+            </a>
+            <ul class="navbar-nav d-felx justify-content-center aling-items-center">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="./index.html" target="_blank">INICIO</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link"  href="./escalas_acordes.html" target="_blank" >ESCALAS Y ACORDES</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link"  href="./ornamentos_musicales.html"  target="_blank">ORNAMENTOS MUSICALES</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        </nav>
+<main>
+        <!-- carrusel de imagenes -->
+        <section>
+            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="./imagenes/A.jpg" class="d-block w-100" alt="piano">
+                        <div class="carousel-caption d-md-block">
+                            <h5>Pentagramas</h5>
+                            <p>
+                                Conocer los pentagramas y sus elementos es crucial en la música porque forman la base de la
+                                notación musical, permitiendo la lectura, escritura y correcta interpretación de piezas.
+                                Facilitan la comunicación entre músicos y son esenciales para la creación y análisis
+                                musical.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./imagenes/C.jpg" class="d-block w-100" alt="Partituras">
+                        <div class="carousel-caption d-md-block">
+                            <h5> ¿Que es el Pentagrama?</h5>
+                            <p>
+                                El pentagrama es un conjunto de cinco líneas horizontales y cuatro espacios que se utilizan
+                                para escribir música.
+                                En él, se representan las alturas de los sonidos y su duración en el tiempo.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./imagenes/B.jpg" class="d-block w-100" alt="Figuras Musicales">
+                        <div class="carousel-caption d-md-block">
+                            <h5>Pentagramas</h5>
+                            <p>
+                                Para leer un pentagrama, es crucial entender las líneas y espacios, la clave, las notas, etc. Estos elementos en conjunto permiten interpretar la música de manera precisa y expresiva.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">volver</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">siguiente</span>
+                </button>
+            </div>
+        </section>
+        <!-- Elementos del pentagrama -->
+        <section class="container bloque-dos">
+            <!-- subtitulo -->
+            <h2>Elementos que se encuentran en el pentagrama:</h2>
+            <!-- contenido(elementos del pentagrama) -->
+            <div class="row lista">
+                <div class="col-lg-3 elemento">
+                    <h3>Claves</h3>
+                    <p>
+                        Existen tres signos de claves (sol, fa, do). <br>
+                        Las claves se nombran según la línea en la que se colocan. Una vez colocada las claves en el
+                        pentagrama dan nombre a la nota escrita en esa linea y ademas que completan la serie de siete notas.
+                    </p>
+                </div>
+                <div class="col-lg-3 elemento">
+                    <h3>Signos de Alteración</h3>
+                    <p>
+                        Sostenidos (#), bemoles (b) y becuadros (♮) alteran la altura de las notas, haciendo que suenen más
+                        agudas o más graves.
+                    <p>
+                </div>
+                <div class="col-lg-3 elemento">
+                    <h3>Compases y Barras de Compás</h3>
+                    <p>
+                        Dividen la música en secciones iguales, facilitando la organización del ritmo. La barra de compás
+                        vertical marca el final de un compás.
+                    </p>
+                </div>
+                <div class="col-lg-3 elemento">
+                    <h3>Notas</h3>
+                    <p>
+                        Las notas son los símbolos que representan los sonidos musicales en el pentagrama. La altura de la
+                        nota está determinada por su posición en el pentagrama: cuanto más arriba esté la nota, más agudo
+                        será el sonido que representa. Las notas pueden tener diferentes formas según su duración.
+                    </p>
+                </div>
+            </div>
+            <div class="row lista">
+                <div class="col-lg-3 elemento">
+                    <h3>Figuras de nota</h3>
+                    <p>
+                        Las figuras de nota son los símbolos que representan la duración de un sonido. La forma de la figura
+                        de nota indica su duración relativa en relación con otras figuras de notas.
+                    </p>
+                </div>
+        
+                <div class="col-lg-3 elemento">
+                    <h3>Tiempos</h3>
+                    <p>
+                        Los tiempos son las divisiones del compás que indican el pulso o ritmo de la música. El compás se
+                        indica al principio del pentagrama con dos números, donde el número superior indica la cantidad de
+                        tiempos por compás y el número inferior indica la duración de cada tiempo. Por ejemplo, en un compás
+                        de 4/4, hay cuatro tiempos por compás y cada tiempo es una negra.
+                    </p>
+                </div>
+                <div class="col-lg-3 elemento">
+                    <h3>Indicaciones de Dinámica</h3>
+                    <p>
+                        Muestran la intensidad con la que se debe tocar (piano, forte, etc.).
+                    </p>
+                </div>
+                <div class="col-lg-3 elemento">
+                    <h3>Silencios</h3>
+                    <p>
+                        Los silencios son los intervalos de tiempo en los que no se produce ningún sonido. Al igual que las
+                        notas, los silencios tienen formas y duraciones que representan su duración relativa en relación con
+                        las figuras de nota. Por ejemplo, el silencio de redonda tiene la misma duración que una redonda, el
+                        silencio de blanca tiene la misma duración que una blanca, y así sucesivamente.
+                    </p>
+                </div>
+            </div>
+        </section >
+        <!-- Carrusel de imagenes -->
+        <section class="container carrusel-dos">
+        <div id="carouselExample" class="carousel slide">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="./imagenes/AAA.jpg" class="d-block w-100" alt="Escalas">
+              </div>
+              <div class="carousel-item">
+                <img src="./imagenes/AA.jpg" class="d-block w-100" alt="Escalas">
+              </div>
+              <div class="carousel-item">
+                <img src="./imagenes/AB.jpg" class="d-block w-100" alt="Espacios">
+              </div>
+              <div class="carousel-item">
+                <img src="./imagenes/AC.jpg" class="d-block w-100" alt="Pentagrama">
+              </div>
+              <div class="carousel-item">
+                <img src="./imagenes/AD.jpg" class="d-block w-100" alt="Figuras y Notas">
+              </div>
+              <div class="carousel-item">
+                <img src="./imagenes/AF.jpg" class="d-block w-100" alt="Figuras">
+              </div>
+              <div class="carousel-item">
+                <img src="./imagenes/AH.jpg" class="d-block w-100" alt="Compas">
+              </div>
+              <div class="carousel-item">
+                <img src="./imagenes/AG.jpg" class="d-block w-100" alt="Silencios">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </section>
+    </main>
+<!-- Pie de pagina (footer) -->
+<footer class="footer d-flex flex-column align-items-center justify-content-center">
+
+    <div class="iconos-redes-sociales d-flex flex-wrap align-items-center justify-content-center">
+      <a href="https://github.com" target="_blank" rel="noopener noreferrer">
+        <i class="bi bi-github"></i>
+      </a>
+      <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer">
+        <i class="bi bi-linkedin"></i>
+      </a>
+      <a href="https://www.instagram.com/ivannit_a?igsh=bThmZW91MzRjdWI2" target="_blank" rel="noopener noreferrer">
+        <i class="bi bi-instagram"></i>
+      </a>
+      <a href="mailto:ivvi.zarate@gmail.com" target="_blank" rel="noopener noreferrer">
+        <i class="bi bi-envelope"></i>
+      </a>
+      <a href="https://wa.link/1l9hui" target="_blank">
+        <i class="bi bi-whatsapp"></i>
+      </a>
+    </div>
+    <div class="derechos-de-autor"> &#169; 2024 Un Mundo del Piano <br> Todos los derechos reservados. </div>
+  </footer>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+            crossorigin="anonymous"></script>
+
+    </body>
+
+</html>

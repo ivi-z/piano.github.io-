@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
+*{
+    font-family: "Josefin Sans", sans-serif;
+}
+
+body{
+    background-color: black;
+    color: white;
+    font-size: 16px;
+}
+
+/* Barra de navegacion */
+.navbar{
+    background-image: url('./imagenes/encabezado.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+    min-height: 180px;
+}
+.navbar-collapse{
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar-toggler{  
+    border-radius: 5%;
+    color: aliceblue;
+    background-color: rgb(53, 53, 53);
+}
+
+.navbar-brand img{
+   width: 20%;
+   text-align: center;
+   margin: 5px 0px 5px 0px;
+   border-radius: 50%;
+}
+
+.nav-link{
+    color: white !important; 
+}
+.nav-link:hover {
+    color: rgb(28, 115, 131) !important;
+}
+/* CONTENIDO */
+
+/* Estilos de los h2 que estan dentro de "bloque" (Archivos Escalas y Acordes, y Onarmentos Musicales) */
+.bloque h2{
+    text-transform:uppercase ;
+    font-size:20px;
+    text-align: center;
+    margin-top:50px;
+    margin-bottom: 15px;
+}
+
+/* Estilos de los h2 que estan dentro de "bloque_dos" de todos los archivos*/
+.bloque-dos h2,h3{
+    font-size: 18px;
+    text-align: center;
+    margin-top:50px;
+    margin-bottom: 15px;
+}
+.bloque-dos img{
+    width: 100px;
+    border-radius: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px; 
+}
+
+/* Estilos de las imagenes que estan dentro de "caja" (Archivo index) */
+
+.caja img{
+    width: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    border-radius: 50%;
+   box-shadow: 0px 0px 40px rgba(177, 177, 177, 0.397); 
+}
+.caja p{
+    margin-top:50px;
+    text-align: justify;
+}
+
+
+
+/* Estilos de la seccion artistas actuales */
+.carrusel-dos{
+    width: 600px;  
+}
+.carrusel-dos .carousel-item img{
+    border-radius: 50px;
+
+}
+.carousel-link a{
+    text-decoration: none;
+    color: white;
+}
+.bloque-tres h2{
+    font-size: 18px;
+    text-align: center;
+    margin-top:50px;
+    margin-bottom: 40px;
+}
+
+
+/* Pie de pagina */
+
+footer{
+    margin-top: 100px;
+    min-height: 300px;
+}
+
+.iconos-redes-sociales a{
+    padding: 5px;
+    margin: 5px;
+}
+.iconos-redes-sociales i{
+    padding: 5px;
+    color: white;
+    font-size: 1.2rem;
+}
+.iconos-redes-sociales a:hover i{
+    color:white;
+}
+
+.iconos-redes-sociales a:hover{
+    background-color:rgba(46, 46, 46, 0.815);
+    border-radius: 10%;
+}
+.derechos-de-autor{
+    font-size: 13px;
+    text-align: center;
+    padding: 10px;
+}
+
+/* CONTENIDO ESCALAS Y ACORDES */
+.bloque-escalas{
+    margin-top: 60px;
+    margin-bottom: 100px;
+}
+.bloque-acordes h3{
+    font-size: 18px;
+    text-align: center;
+    margin-top:50px;
+    margin-bottom: 40px;
+}
+.bloque-acordes p{
+    margin-bottom: 20px;
+}
+.imagen img{
+    width: 100%;
+    margin-top: 30px;
+}
+
+
+/* (Responsivo) */
+
+   
+@media screen and (max-width:467px){
+     /* Para el menu */
+    .navbar-brand{
+        display: none;
+    }
+
+    /* Para el carusel */
+    .carousel h5{
+        font-size: 12px;
+    
+    }
+    .carousel p{
+        font-size: 10px;
+
+    }
+    /* Contenido */
+    .caja{
+        padding:25px;
+    }
+
+    /* Para el segundo carrusel */
+    .carrusel-dos{
+        width: auto;
+        padding: 0px;
+    }
+    .carrusel-dos .carousel-item img{
+        border-radius: 0px;
+    }
+
+}
+
+
+
